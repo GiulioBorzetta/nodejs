@@ -19,21 +19,28 @@
 ## Come testare il codice?
 
 `http://localhost:3000/users` -> Per vedere ed inserire gli users
+
 quando si inseriscono dei dati all interno del database, attraverso postman per esempio, questa deve essere l'impostazione che deve rispettare per non causare alcun tipo di errore:
 `{
   "title": "Title",
   "insertion_date": "YYYY-MM-DD"
 }`
+
 `http://localhost:3000/users/:id` -> Per eliminare, modificare delle informazioni
+
 `http://localhost:3000/posts` -> Per vedere ed inserire i posts
+
 quando si inseriscono dei dati all interno del database, attraverso postman per esempio, questa deve essere l'impostazione che deve rispettare per non causare alcun tipo di errore:
 `{
   "nickname": "name",
   "age": number,
   "city": "city"
 }`
+
 `http://localhost:3000/posts/:id` -> Per eliminare, modificare delle informazioni
+
 `http://localhost:3000/interactions` -> Per vedere ed inserire le interactions
+
 quando si inseriscono dei dati all interno del database, attraverso postman per esempio, questa deve essere l'impostazione che deve rispettare per non causare alcun tipo di errore:
 `{
   "post_id": id,
@@ -41,8 +48,11 @@ quando si inseriscono dei dati all interno del database, attraverso postman per 
   "interaction_type": "like" or "comment",
   "interaction_time": "YYYY-MM-DD"
 }`
+
 `http://localhost:3000/interactions/:id` -> Per eliminare, modificare delle informazioni
+
 `http://localhost:3000/interactions/aggregate?city=NOMECITTA&interaction_date=YYYY-MM-DD` -> Per cercare di visualizzare tutti i post con gli aggregati delle interazioni, di filtrare i post per data e di filtrare le interazioni aggregate dei post per città e data di interazione
+
 `http://localhost:3000/interactions/aggregate?city=Barcellona&interaction_date=2024-11-08` -> Esempio
 
 
