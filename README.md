@@ -63,6 +63,12 @@ quando si inseriscono dei dati all interno del database, attraverso postman per 
 
 `http://localhost:3000/interactions/aggregate?city=Barcellona&interaction_date=2024-11-08` -> Esempio
 
+## Test
+
+Nel codice é stato introdotto una fase di test con l aiuto di Sinon e che permette di verificare 12 test. 
+I test non sarebbbero altro dei controlli che va a fare con le API, per controllare che il GET, POST, PUT e DELETE funzioni correttamente.
+
+Per poter avviare il test bisognerá scrivere nel terminale la stringa `npm test` cominciando a fare il controllo e se fosse andato tutto bene, mostrerá che ha passato 12 test
 
 ## Per far funzionare il codice, come é stato inserito?
 
