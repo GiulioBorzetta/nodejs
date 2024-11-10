@@ -70,3 +70,7 @@ quando si inseriscono dei dati all interno del database, attraverso postman per 
 - dotenv, per permettere l'inserimento delle credenziali dal file .env ad un file js
 - express-validator, permette di fare un controllo prima che i dati vengano inseriti, consentendo di non incorrere in errori per via del formato
 - express, é un framework che semplifica la creazione di applicazioni ed API
+
+## Informazioni aggiuntive
+
+All interno dei file di MYSQL sono giá presenti dei valori, per poter giá controllare che funzioni tutto perfettamente
