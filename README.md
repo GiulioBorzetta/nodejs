@@ -7,6 +7,14 @@
 - NODEJS, senza questo non é possibile avviare il codice
 - creare un file .env, inserendo le credenziali del proprio database e la porta che si vuole usare (sennó partirá in automatico con la porta 3000)
 
+questa é l'impostazione di come dovrebbe essere il file .env, quando si andrá a creare:
+
+`DB_HOST=yourHost
+DB_USER=yourUser
+DB_PASSWORD=yourPassword
+DB_NAME=yourDatabase
+PORT=yourPort`
+
 
 ## Come é costituito il codice?
 
