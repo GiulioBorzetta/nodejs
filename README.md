@@ -26,6 +26,8 @@ PORT=yourPort`
 
 ## Come testare il codice?
 
+per avviare il codice bisognerá scrivere il seguente comanado `node app.js`. Appena avviato non mostrerá nulla, ma andando negli url che si possono trovare qua sotto, aprirá pagine in formato json che ti permetteranno di vedere quello che é presente all'interno del database
+
 `http://localhost:3000/users` -> Per vedere ed inserire gli users
 
 quando si inseriscono dei dati all interno del database, attraverso postman per esempio, questa deve essere l'impostazione che deve rispettare per non causare alcun tipo di errore:
