@@ -70,7 +70,7 @@ I test non sarebbbero altro dei controlli che va a fare con le API, per controll
 
 Per poter avviare il test bisognerá scrivere nel terminale la stringa `npm test` cominciando a fare il controllo e se fosse andato tutto bene, mostrerá che ha passato 12 test
 
-## Per far funzionare il codice, come é stato inserito?
+## Per far funzionare il codice, cosa é stato inserito?
 
 - mysql2, per poter collegare il database alla parte di backend
 - dotenv, per permettere l'inserimento delle credenziali dal file .env ad un file js
